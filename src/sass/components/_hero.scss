@@ -57,10 +57,6 @@
     margin-bottom: 0;
   }
 
-  a {
-    display: inline-block;
-  }
-
   svg {
     height: auto;
     width: 200px;
@@ -79,6 +75,9 @@
 
 .palantir-logo {
   margin-top: 1rem;
+  float: left;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
 
   @include min($tablet) {
     margin-top: 0;
@@ -136,7 +135,7 @@
 //     perspective-origin: center center;
 //   }
 
-//   50%   { 
+//   50%   {
 //     perspective-origin: center bottom;
 //   }
 
@@ -150,7 +149,7 @@
 //     transform: rotateX(60deg) translateZ(10px);
 //   }
 
-//   50%   { 
+//   50%   {
 //     transform: rotateX(60deg) translateZ(50px);
 //   }
 
